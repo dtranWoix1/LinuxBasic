@@ -1,0 +1,21 @@
+Task 1
+
+Creating Directory:
+
+mkdir super_secret_stuff 
+
+Creating File:
+
+touch super_secret_stuff/top_secret.txt 
+
+Updating Database:
+
+sudo updatedb 
+
+Saving Path to File:
+
+locate top_secret.txt > ~/secret_place.txt 
+
+Task 2
+
+sudo find -maxdepth 4 -type f -size +1M -exec ls -lh {} \; | sort -k 5hr > ~/filesizes.txt 
