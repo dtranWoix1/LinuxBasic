@@ -1,1 +1,15 @@
-R
+Task 1
+
+Contents of the hungry.sh  bash script:
+
+#!/bin/bash 
+
+echo "I am Hungry. Feed me Data." >> ~/demands.txt 
+
+date >> ~/demands.log 
+
+Task 2
+
+Crontab row:
+
+* * * * * bash ~/hungry.sh 
