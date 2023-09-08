@@ -4,11 +4,11 @@ This will hold all the projects belong to the courses: Learn the Linux Command L
 
 # Ubuntu 22.04 with Virtual Machine 7.0.10
 
-# Creating a bash scripts
+# Creating a bash scripts. Run this on a terminal
 daniel@daniel-VirtualBox:~$ which bash 
 /usr/bin/bash
 
-# then add the #! before that, so it will become:
+after getting the path. Copy that then add the #! before that, so it will become:
 #!/usr/bin/bash
 
 Type the scripts below
